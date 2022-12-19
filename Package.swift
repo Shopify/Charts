@@ -24,8 +24,8 @@ let package = Package(
     targets: [
         .target(
             name: "ShopifyCharts",
-            dependencies: [.product(name: "Algorithms", package: "swift-algorithms"),
-            path: "Source/ShopifyCharts"]
+            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")],
+            path: "Source/ShopifyCharts"
         )
     ],
     swiftLanguageVersions: [.v5]
