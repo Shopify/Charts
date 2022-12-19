@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DemoBaseViewController.h"
-#import <Charts/Charts.h>
+#import <ShopifyCharts/ShopifyCharts.h>
 
 @interface LineChartTimeViewController : DemoBaseViewController
 

@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import Charts
+import ShopifyCharts
 #if canImport(UIKit)
     import UIKit
 #endif

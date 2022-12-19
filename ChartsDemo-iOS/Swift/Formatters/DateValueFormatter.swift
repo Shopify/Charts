@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Charts
+import ShopifyCharts
 
 public class DateValueFormatter: NSObject, AxisValueFormatter {
     private let dateFormatter = DateFormatter()

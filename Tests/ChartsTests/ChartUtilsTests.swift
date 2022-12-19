@@ -1,4 +1,4 @@
-@testable import Charts
+@testable import ShopifyCharts
 import XCTest
 
 class ChartUtilsTests: XCTestCase {

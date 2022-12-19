@@ -5,7 +5,7 @@
 //  Created by Peter Kaminski on 1/23/20.
 //
 
-@testable import Charts
+@testable import ShopifyCharts
 import XCTest
 
 class ChartDataTests: XCTestCase {

@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import Charts
+import ShopifyCharts
 
 open class LargeValueFormatter: NSObject, ValueFormatter, AxisValueFormatter
 {

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0439A3541C9FF95F00496F83 /* PiePolylineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3521C9FF95F00496F83 /* PiePolylineChartViewController.m */; };
 		0471CBFC1CA1090A00E52DBC /* PiePolylineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0471CBFB1CA1090A00E52DBC /* PiePolylineChartViewController.xib */; };
-		0630AE511D81271B008859B0 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; };
-		0630AE521D81271B008859B0 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		068A9B191FBBF351003CF1AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8EAF2F1AB32E15009697AA /* Images.xcassets */; };
 		068A9B1A1FBBF355003CF1AD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64D06EA1FB199130067418D /* Launch Screen.storyboard */; };
 		068A9B1B1FBBF366003CF1AD /* radar_marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B613DA31D526AD5000F1E98 /* radar_marker@3x.png */; };
@@ -72,8 +70,6 @@
 		225B36891F6EBA640005B3D5 /* ScatterChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED171ABBFB340013F194 /* ScatterChartViewController.xib */; };
 		225B368A1F6EBA640005B3D5 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
 		225B368B1F6EBA640005B3D5 /* StackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED1A1ABBFB340013F194 /* StackedBarChartViewController.xib */; };
-		225B368C1F6EBBB00005B3D5 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; };
-		225B368D1F6EBBB00005B3D5 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		55E356501ADC638F00A57971 /* BubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E3564D1ADC638F00A57971 /* BubbleChartViewController.xib */; };
 		55E356511ADC638F00A57971 /* BubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E3564F1ADC638F00A57971 /* BubbleChartViewController.m */; };
 		5B0CC7851ABB875400665592 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CC7831ABB875400665592 /* PieChartViewController.m */; };
@@ -139,33 +135,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0630AE401D8126C0008859B0 /* PBXContainerItemProxy */ = {
+		8011D56A29506E3700A6CFEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
+			containerPortal = 0630AE391D8126C0008859B0 /* ShopifyCharts.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 06165F241D8110E600722320;
-			remoteInfo = Charts;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = ShopifyCharts;
 		};
-		0630AE421D8126C0008859B0 /* PBXContainerItemProxy */ = {
+		8011D56C29506E3700A6CFEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
+			containerPortal = 0630AE391D8126C0008859B0 /* ShopifyCharts.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 06165F2E1D8110E600722320;
-			remoteInfo = ChartsTests;
-		};
-		0630AE531D81271B008859B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A58A4ED274A941CA248EA921;
-			remoteInfo = Charts;
-		};
-		225B368E1F6EBBB00005B3D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A58A4ED274A941CA248EA921;
-			remoteInfo = Charts;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ShopifyChartsTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -176,7 +158,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				225B368D1F6EBBB00005B3D5 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +168,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0630AE521D81271B008859B0 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +178,7 @@
 		0439A3511C9FF95F00496F83 /* PiePolylineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiePolylineChartViewController.h; sourceTree = "<group>"; };
 		0439A3521C9FF95F00496F83 /* PiePolylineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiePolylineChartViewController.m; sourceTree = "<group>"; };
 		0471CBFB1CA1090A00E52DBC /* PiePolylineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiePolylineChartViewController.xib; sourceTree = "<group>"; };
-		0630AE391D8126C0008859B0 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts.xcodeproj; sourceTree = "<group>"; };
+		0630AE391D8126C0008859B0 /* ShopifyCharts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShopifyCharts.xcodeproj; path = ../ShopifyCharts.xcodeproj; sourceTree = "<group>"; };
 		225B361D1F6EB9A50005B3D5 /* ChartsDemo-iOS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChartsDemo-iOS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225B361F1F6EB9A50005B3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		225B362F1F6EB9EE0005B3D5 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
@@ -331,7 +311,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225B368C1F6EBBB00005B3D5 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,22 +318,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0630AE511D81271B008859B0 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0630AE3A1D8126C0008859B0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0630AE411D8126C0008859B0 /* Charts.framework */,
-				0630AE431D8126C0008859B0 /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		225B361E1F6EB9A50005B3D5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,7 +438,7 @@
 				5B8EAF2E1AB32E15009697AA /* Resources */,
 				5B57BBB21A9B26AA0036A6CC /* Supporting Files */,
 				5B57BBB01A9B26AA0036A6CC /* Products */,
-				0630AE391D8126C0008859B0 /* Charts.xcodeproj */,
+				0630AE391D8126C0008859B0 /* ShopifyCharts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -602,6 +571,15 @@
 			path = Formatters;
 			sourceTree = "<group>";
 		};
+		8011D56029506E3700A6CFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8011D56B29506E3700A6CFEE /* ShopifyCharts.framework */,
+				8011D56D29506E3700A6CFEE /* ShopifyChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -617,7 +595,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				225B368F1F6EBBB00005B3D5 /* PBXTargetDependency */,
 			);
 			name = "ChartsDemo-iOS-Swift";
 			productName = "ChartsDemo-Swift";
@@ -636,7 +613,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0630AE541D81271B008859B0 /* PBXTargetDependency */,
 			);
 			name = "ChartsDemo-iOS";
 			productName = chartstest;
@@ -678,8 +654,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 0630AE3A1D8126C0008859B0 /* Products */;
-					ProjectRef = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
+					ProductGroup = 8011D56029506E3700A6CFEE /* Products */;
+					ProjectRef = 0630AE391D8126C0008859B0 /* ShopifyCharts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -691,18 +667,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0630AE411D8126C0008859B0 /* Charts.framework */ = {
+		8011D56B29506E3700A6CFEE /* ShopifyCharts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 0630AE401D8126C0008859B0 /* PBXContainerItemProxy */;
+			path = ShopifyCharts.framework;
+			remoteRef = 8011D56A29506E3700A6CFEE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		0630AE431D8126C0008859B0 /* ChartsTests.xctest */ = {
+		8011D56D29506E3700A6CFEE /* ShopifyChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 0630AE421D8126C0008859B0 /* PBXContainerItemProxy */;
+			path = ShopifyChartsTests.xctest;
+			remoteRef = 8011D56C29506E3700A6CFEE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -865,19 +841,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0630AE541D81271B008859B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = 0630AE531D81271B008859B0 /* PBXContainerItemProxy */;
-		};
-		225B368F1F6EBBB00005B3D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = 225B368E1F6EBBB00005B3D5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		225B362D1F6EB9A50005B3D5 /* Debug */ = {

@@ -1,4 +1,4 @@
-import Charts
+import ShopifyCharts
 import SnapshotTesting
 import UIKit
 import XCTest

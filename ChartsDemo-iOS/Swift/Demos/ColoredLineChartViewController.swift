@@ -9,7 +9,7 @@
 #if canImport(UIKit)
     import UIKit
 #endif
-import Charts
+import ShopifyCharts
 
 class ColoredLineChartViewController: DemoBaseViewController {
     @IBOutlet var chartViews: [LineChartView]!

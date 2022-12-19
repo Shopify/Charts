@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import Charts
+import ShopifyCharts
 
 private let MAX_LENGTH = 5
 

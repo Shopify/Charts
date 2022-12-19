@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Charts
+import ShopifyCharts
 
 class LineChart1ViewController: DemoBaseViewController {
 

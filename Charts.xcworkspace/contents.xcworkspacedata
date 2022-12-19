@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:Charts.xcodeproj">
+      location = "container:/Users/aurelientison/src/github.com/Shopify/Charts/ShopifyCharts.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ChartsDemo-iOS/ChartsDemo-iOS.xcodeproj">

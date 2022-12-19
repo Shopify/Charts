@@ -10,7 +10,7 @@
 
 import Foundation
 import Cocoa
-import Charts
+import ShopifyCharts
 
 open class LineDemoViewController: NSViewController
 {
